@@ -1,0 +1,74 @@
+                                DiskImager 1.1
+                 Copyright (C) 1999 by Port Jackson Computing 
+  
+                                   ReadMe
+                                 1999-07-19
+
+Index
+==========================
+1.0 Introduction
+1.1 What it do...
+1.2 What it don't do...
+1.3 How to use it
+
+
+1.0 Introduction
+==========================
+Have you ever been frustrated over all thoose disks beeing all over your
+drawer? Don't you just wish there was an easy way to burn 'em down to your
+harddrive freeing them up, so that you may use them for something else?
+Or, do you wish that creating a bootable floppy with the tools you want was
+easier?
+
+This is the tool for you! 
+
+
+1.1 What it do...
+==========================
+Theese are the features
+  - Create Imagefiles of your 1.44MB floppy disks.
+  - Create SelF-eXtracting (EXE) Imagefiles of your 1.44MB floppy disk.
+  - Restore Imagefiles to your 1.44MB floppy drive.
+  - Use SFX Imagefiles (EXE) to restore the imagefile to yoru floppy drive.
+
+Requirements
+  - 286 or better.
+  - A fragment of your memory.
+
+
+1.2 What it don't do...
+==========================
+Theese are the features that are not supported 
+(but will probably be supported on request)
+  - 1.44MB floppy is the only format supported.
+  - Compression.
+  - Automatically formating disk.
+
+
+1.3 How to use it
+==========================
+If you just at the COMMAND prompt write DI, an help text will be displayed.
+Theese are the most common options that you need to know using DiskImager,
+
+To Create a Imagefile from a 1.44MB floppy disk:
+  DI A: MYIMAGE.IMG
+
+To Restore this Imagefile to a formatted 1.44MB floppy disk:
+  DI /R A: MYIMAGE.IMG
+
+To Create a SFX from a 1.44MB floppy disk:
+  DI /S A: MYIMAGE.EXE
+
+To Restore this SFX to a formatted 1.44MB floppy disk.
+  MYIMAGE.EXE A:
+
+Please note that the extensions are optional, defaults will be added if no
+extension is given. Further note that in SFX mode, DiskImager will ask the
+end-user for drive to restore image to, if no parameter is given to the SFX.
+
+
+Kind Regards,
+Enjoy!
+
+Fredrik Johansson <fjohansson@bigfoot.com>
+Port Jackson Computing
